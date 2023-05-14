@@ -155,5 +155,8 @@ app.listen(port, () => {
    console.log(`Doctor SERVER is Running on port: ${port}`)
 });
 
+//export
+module.exports = app;
+
 
 
